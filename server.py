@@ -7,7 +7,7 @@ from world import *
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server = 'localhost'
+server = '172.16.1.12'
 port = 5555
 
 server_ip = socket.gethostbyname(server)
